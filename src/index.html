@@ -6,6 +6,23 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jacques Francois">
 	</head>
 	<body>
+		
+		<script>
+			window.fbAsyncInit = function() {
+				FB.init({
+					appId            : '',
+					autoLogAppEvents : true,
+					xfbml            : true,
+					version          : 'v14.0'
+				});
+				FB.ui({
+  method: 'share',
+  href: 'https://developers.facebook.com/docs/'
+}, function(response){});
+			};
+		</script>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+				
 		<div class="container background">
 			<div class="blue-stripe">
 				<img src="./assets/img/tulip.png" id="tulip">
