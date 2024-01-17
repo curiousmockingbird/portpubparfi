@@ -69,7 +69,10 @@ API_KEY=[your PredictHq API-key here]
 
 ## Known Bugs
 
-* None at this point
+* We have experimental branches for Facebook & Twitter APIs that are not functional due to authentification errors.
+* In the UI, when the height of the viewport changes size, the event result div superimposes onto the blue form div.
+* There is overflow text for the results of the PredictHQ API, so there is currently a scroll bar at the bottom of the column to account for that.
+* The Eventbrite events have to manually updated becasue the API doesn't allow for dynamic search capability.
 
 ## License
 
